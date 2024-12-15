@@ -8,7 +8,7 @@ public class demo15 {
 
     public static void main(String[] args) {
         // URL of the text file
-        String fileUrl = "https://drive.google.com/file/d/1_AegUxwm6pubcNd9kCEfPBSLM1aj1-Ce/view?usp=drive_link"; // Replace with the actual URL
+        String fileUrl = "https://raw.githubusercontent.com/Mith2211/Ecommerce_app/refs/heads/main/Ecommerce_App/ExcelFiles/BookFile.txt"; // Replace with the actual URL
 
         int totalBooks = 0;
         int totalPages = 0;
@@ -19,6 +19,7 @@ public class demo15 {
             BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
 
             String line;
+            reader.readLine(); // this is to skip first header line in the text file 
 
             // Read the file line by line
             while ((line = reader.readLine()) != null) {

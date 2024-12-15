@@ -2,3 +2,5 @@ BookID, BookName, PageCount
 1, Harry Potter and the Sorcerer's Stone, 309
 2, The Hobbit, 310
 3, Pride and Prejudice, 432
+4, Demo book, 123
+5, The Secreat, 245 
